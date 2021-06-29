@@ -13,6 +13,7 @@
 		CFBC8921268AB14D007BF861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBC891F268AB14D007BF861 /* Main.storyboard */; };
 		CFBC8923268AB14F007BF861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBC8922268AB14F007BF861 /* Assets.xcassets */; };
 		CFBC8926268AB14F007BF861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBC8924268AB14F007BF861 /* LaunchScreen.storyboard */; };
+		CFBC892E268AB170007BF861 /* cameraAppExplanation.File in Resources */ = {isa = PBXBuildFile; fileRef = CFBC892D268AB170007BF861 /* cameraAppExplanation.File */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CFBC8922268AB14F007BF861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFBC8925268AB14F007BF861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFBC8927268AB14F007BF861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBC892D268AB170007BF861 /* cameraAppExplanation.File */ = {isa = PBXFileReference; lastKnownFileType = text; path = cameraAppExplanation.File; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CFBC891B268AB14D007BF861 /* SceneDelegate.swift */,
 				CFBC891D268AB14D007BF861 /* ViewController.swift */,
 				CFBC891F268AB14D007BF861 /* Main.storyboard */,
+				CFBC892D268AB170007BF861 /* cameraAppExplanation.File */,
 				CFBC8922268AB14F007BF861 /* Assets.xcassets */,
 				CFBC8924268AB14F007BF861 /* LaunchScreen.storyboard */,
 				CFBC8927268AB14F007BF861 /* Info.plist */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBC892E268AB170007BF861 /* cameraAppExplanation.File in Resources */,
 				CFBC8926268AB14F007BF861 /* LaunchScreen.storyboard in Resources */,
 				CFBC8923268AB14F007BF861 /* Assets.xcassets in Resources */,
 				CFBC8921268AB14D007BF861 /* Main.storyboard in Resources */,
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cow.iwaski.cameraApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cow.iwaski.cameraApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
